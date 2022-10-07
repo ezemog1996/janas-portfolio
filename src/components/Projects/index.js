@@ -1,10 +1,10 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import Butterflies from '../../assets/images/projects/Butterflies.png'
 import WendysLogo from "../../assets/images/projects/Wendy's Logo.png"
 import TypographySwirls from '../../assets/images/projects/Typography Swirls.png'
 import TypographyBell from '../../assets/images/projects/Typography Bell.png'
 import TypographyAlexandria1 from '../../assets/images/projects/Typography Alexandria 1.png'
-import { ScrollMenu, VisibilityContext, Arrow } from 'react-horizontal-scrolling-menu'
+import { ScrollMenu } from 'react-horizontal-scrolling-menu'
 
 function Projects() {
     
@@ -37,7 +37,7 @@ function Projects() {
             {
                 projects.illustrations.map(project =>(
                     <div className='p-1' key={project.screenshot}>
-                        <img src={project.screenshot} className='illustration'/>
+                        <img src={project.screenshot} className='illustration' alt='illustration'/>
                     </div>
                 ))
             }
@@ -47,7 +47,7 @@ function Projects() {
                 {
                     projects.illustrations.map(project =>(
                         <div className='p-1' key={project.screenshot}>
-                            <img src={project.screenshot} className='illustration'/>
+                            <img src={project.screenshot} className='illustration' alt='illustration'/>
                         </div>
                     ))
                 }
@@ -59,7 +59,7 @@ function Projects() {
             {
                 projects.typography.map(project =>(
                     <div className='p-1' key={project.screenshot}>
-                        <img src={project.screenshot} className='typography'/>
+                        <img src={project.screenshot} className='typography' alt='typography'/>
                     </div>
                 ))
             }
@@ -69,7 +69,7 @@ function Projects() {
                 {
                     projects.typography.map(project =>(
                         <div className='p-1' key={project.screenshot}>
-                            <img src={project.screenshot} className='typography'/>
+                            <img src={project.screenshot} className='typography' alt='typography'/>
                         </div>
                     ))
                 }

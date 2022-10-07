@@ -20,18 +20,18 @@ function Navbar() {
                 </div>
                 <div className='col-12 col-sm-4 text-center'>
                     <a href='#profile'>
-                        <img className='nav-logo' src={logo} height='100px' width='auto'/>
+                        <img className='nav-logo' src={logo} height='100px' width='auto' alt='logo'/>
                         <div className='first-name-nav'>JANA</div>
                         <div>GOMEZ</div>
                     </a>
                 </div>
                 <div className='col-12 col-sm-4 header-text mt-2'>
-                    <a href='https://linkedin.com/' target='_blank'><h2 className='text-center'><i className="fa-brands fa-linkedin"></i></h2></a>
+                    <a href='https://linkedin.com/' target='_blank' rel="noreferrer" ><h2 className='text-center'><i className="fa-brands fa-linkedin"></i></h2></a>
                 </div>
             </nav>
             <nav className='mobile-menu'>
                 <div className='d-flex justify-content-between'>
-                    <img src={logo} className='nav-logo' height='150px' width='auto' />
+                    <img src={logo} className='nav-logo' height='150px' width='auto' alt='logo'/>
                     <button className='btn hamburger' onClick={openCloseMenu}><i className="fa-solid fa-bars"></i></button>
                 </div>
                 {
@@ -46,7 +46,7 @@ function Navbar() {
                         <div>
                             <a href='#contact'>CONTACT</a>
                         </div>
-                        <a href='https://linkedin.com/' target='_blank'><h2><i className="fa-brands fa-linkedin"></i></h2></a>
+                        <a href='https://linkedin.com/' target='_blank' rel="noreferrer" ><h2><i className="fa-brands fa-linkedin"></i></h2></a>
                     </div>
                 }
             </nav>
