@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+HTML, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Abyssinica SIL', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img-cropper {
+  min-width: 200px;
+  height: 250px;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-position: 47.5% 35%;
+  background-size: 275%;
+  background-image: url(./assets/images/jana.jpg);
+  border: 5px solid lightgray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-pic {
+  height: 400px;
+  width: auto;
+}
+
+.vertical-space-between {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.icon-div {
+  font-size: 3rem;
+  max-width: 100px;
+  height: 115px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.skill-div {
+  border-radius: 100px;
+}
+
+.illustration {
+  width: 300px;
+  height: auto;
+}
+
+.typography {
+  width: 200px;
+  height: auto;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.contact {
+  border: 5px dotted black;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
+
+.first-name-nav {
+  margin-top: -20px;
+}
+
+.nav-logo {
+  margin-top: -20px;
+}
+
+.arrow-btn {
+  border: none;
+  width: 20px;
+  padding: 5px;
+}
+
+input {
+  height: 35px;
+}
+
+textarea {
+  height: 100px;
+  width: 200px;
+}
+
+.project-scroll {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-email {
+    font-size: 12.5px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 720px) {
+
+  .project-regular {
+    display: none !important;
+  }
+
+  .project-scroll {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .full-nav {
+    display: none;
+  }
+
+  .hamburger {
+    font-size: 25px;
+  }
+
+  .header {
+    margin-top: 10px !important;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .nav-logo {
+    margin-top: -40px;
+    margin-left: -60px;
   }
 }
