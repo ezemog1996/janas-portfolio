@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/janas-portfolio/static/css/main.1c12d4c2.css",
-    "main.js": "/janas-portfolio/static/js/main.fdeeb26f.js",
-    "static/js/787.cf35f10c.chunk.js": "/janas-portfolio/static/js/787.cf35f10c.chunk.js",
-    "static/media/jana.jpg": "/janas-portfolio/static/media/jana.1197f318ad6e9e15ede5.jpg",
-    "static/media/Butterflies.png": "/janas-portfolio/static/media/Butterflies.509308dc206be28787c5.png",
-    "static/media/Typography Swirls.png": "/janas-portfolio/static/media/Typography Swirls.57d7e1fcc5999cf81453.png",
-    "static/media/Typography Bell.png": "/janas-portfolio/static/media/Typography Bell.be523e33a398612ace72.png",
-    "static/media/Wendy's Logo.png": "/janas-portfolio/static/media/Wendy's Logo.4966b1a8a76b66f86da0.png",
-    "static/media/Typography Alexandria 1.png": "/janas-portfolio/static/media/Typography Alexandria 1.d2553f8561e67fa2e5af.png",
-    "static/media/Jana Gomez Designs-02[4594].png": "/janas-portfolio/static/media/Jana Gomez Designs-02[4594].4053e07f6aaa0bc39927.png",
-    "index.html": "/janas-portfolio/index.html",
-    "main.1c12d4c2.css.map": "/janas-portfolio/static/css/main.1c12d4c2.css.map",
-    "main.fdeeb26f.js.map": "/janas-portfolio/static/js/main.fdeeb26f.js.map",
-    "787.cf35f10c.chunk.js.map": "/janas-portfolio/static/js/787.cf35f10c.chunk.js.map"
+    "main.css": "/static/css/main.46139b90.css",
+    "main.js": "/static/js/main.2d0e5160.js",
+    "static/js/787.cf35f10c.chunk.js": "/static/js/787.cf35f10c.chunk.js",
+    "static/media/jana.jpg": "/static/media/jana.1197f318ad6e9e15ede5.jpg",
+    "static/media/Butterflies.png": "/static/media/Butterflies.509308dc206be28787c5.png",
+    "static/media/Typography Swirls.png": "/static/media/Typography Swirls.57d7e1fcc5999cf81453.png",
+    "static/media/Typography Bell.png": "/static/media/Typography Bell.be523e33a398612ace72.png",
+    "static/media/Wendy's Logo.png": "/static/media/Wendy's Logo.4966b1a8a76b66f86da0.png",
+    "static/media/Typography Alexandria 1.png": "/static/media/Typography Alexandria 1.d2553f8561e67fa2e5af.png",
+    "static/media/Jana Gomez Designs-02[4594].png": "/static/media/Jana Gomez Designs-02[4594].4053e07f6aaa0bc39927.png",
+    "index.html": "/index.html",
+    "main.46139b90.css.map": "/static/css/main.46139b90.css.map",
+    "main.2d0e5160.js.map": "/static/js/main.2d0e5160.js.map",
+    "787.cf35f10c.chunk.js.map": "/static/js/787.cf35f10c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c12d4c2.css",
-    "static/js/main.fdeeb26f.js"
+    "static/css/main.46139b90.css",
+    "static/js/main.2d0e5160.js"
   ]
 }
