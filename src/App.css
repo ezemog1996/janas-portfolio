@@ -146,7 +146,7 @@ textarea {
 
 @media screen and (max-width: 462px) {
   .contact {
-    width: 350px;
-    height: 350px;
+    width: 90vw;
+    height: 90vw;
   }
 }
