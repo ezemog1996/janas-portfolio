@@ -4,15 +4,15 @@ function Skills() {
     const skills = [
         {
           icon: 'fi fi-brands-illustrator',
-          skill: 'Illustrator'
+          skill: 'Adobe Illustrator'
         },
         {
           icon: 'fi fi-brands-indesign',
-          skill: 'InDesign'
+          skill: 'Adobe InDesign'
         },
         {
           icon: 'fi fi-brands-photoshop',
-          skill: 'Photoshop'
+          skill: 'Adobe Photoshop'
         }
     ]
     return (

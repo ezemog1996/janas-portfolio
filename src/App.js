@@ -19,6 +19,9 @@ function App() {
       <Projects />
       <hr/>
       <Contact />
+      <div className='text-end'>
+        Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
+      </div>
     </div>
   );
 }
