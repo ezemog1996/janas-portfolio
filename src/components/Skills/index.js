@@ -22,7 +22,7 @@ function Skills() {
                 <div className='d-flex justify-content-around'>
                 {
                     skills.map(skill => (
-                    <div key={skill}>
+                    <div key={skill.skill}>
                         <h1 className='skill-icon text-center'><i className={skill.icon}></i></h1>
                         <strong>{skill.skill}</strong>
                     </div>

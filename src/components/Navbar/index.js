@@ -27,7 +27,7 @@ function Navbar() {
                 </div>
                 <div className='col-12 col-sm-4 header-text mt-2'>
                     {/* <a href='https://linkedin.com/' target='_blank' rel="noreferrer" ><h2 className='text-center'><i className="fa-brands fa-linkedin"></i></h2></a> */}
-                    <a href='https://www.instagram.com/janabonana/' target='_blank' rel="noreferrer" ><h2 className='text-center'><i class="fi fi-brands-instagram"></i></h2></a>
+                    <a href='https://www.instagram.com/janabonana/' target='_blank' rel="noreferrer" ><h2 className='text-center'><i className="fi fi-brands-instagram"></i></h2></a>
                 </div>
             </nav>
             <nav className='mobile-menu'>
