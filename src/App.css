@@ -3,6 +3,8 @@ HTML, body {
   padding: 0;
   border: 0;
   font-family: 'Abyssinica SIL', serif;
+  height:100%;
+  width:100%;
 }
 
 a, a:hover, a:focus, a:active {
@@ -94,6 +96,10 @@ textarea {
   display: none;
 }
 
+.skill-icon {
+  font-size: 50px;
+}
+
 @media screen and (max-width: 767px) {
   .big-screen {
     display: none;
@@ -135,5 +141,12 @@ textarea {
   .nav-logo {
     margin-top: -40px;
     margin-left: -60px;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .contact {
+    width: 350px;
+    height: 350px;
   }
 }

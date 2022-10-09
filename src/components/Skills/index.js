@@ -4,31 +4,31 @@ function Skills() {
     const skills = [
         {
           icon: 'fi fi-brands-illustrator',
-          skill: 'Adobe Illustrator'
+          skill: 'Illustrator'
         },
         {
           icon: 'fi fi-brands-indesign',
-          skill: 'Adobe InDesign'
+          skill: 'InDesign'
         },
         {
           icon: 'fi fi-brands-photoshop',
-          skill: 'Adobe Photoshop'
+          skill: 'Photoshop'
         }
     ]
     return (
-        <div id="skills">
-            <h1 className='text-center'>My Skills</h1>
-            <div className='d-flex justify-content-around'>
-            {
-                skills.map(skill => (
-                <div key={skill}>
-                    <div className='skill-div bg-light text-center py-3 px-4 icon-div'>
-                        <i className={skill.icon}></i>
+        <div id="skills" className='row'>
+            <div className='col-12'>
+                <h1 className='text-center'>My Skills</h1>
+                <div className='d-flex justify-content-around'>
+                {
+                    skills.map(skill => (
+                    <div key={skill}>
+                        <h1 className='skill-icon text-center'><i className={skill.icon}></i></h1>
+                        <strong>{skill.skill}</strong>
                     </div>
-                    <strong>{skill.skill}</strong>
+                    ))
+                }
                 </div>
-                ))
-            }
             </div>
         </div>
     )

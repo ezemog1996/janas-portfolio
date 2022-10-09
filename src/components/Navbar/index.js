@@ -12,14 +12,11 @@ function Navbar() {
     return (
         <>
             <nav className='row full-nav'>
-                {/* <div className='col-12 col-sm-4'>
+                <div className='col-12 col-sm-4'>
                     <div className='row header-text'>
                         <div className='col-12 col-sm-6 col-md-4 mt-2'><a href='#works'>WORKS</a></div>
                         <div className='col-12 col-sm-6 col-md-4 mt-2'><a href='#contact'>CONTACT</a></div>
                     </div>
-                </div> */}
-                <div className='col-12 col-sm-4 header-text mt-2 text-center'>
-                    <a href='#works'>WORKS</a>
                 </div>
                 <div className='col-12 col-sm-4 text-center'>
                     <a href='#profile'>
@@ -28,9 +25,9 @@ function Navbar() {
                         <div>GOMEZ</div>
                     </a>
                 </div>
-                <div className='col-12 col-sm-4 header-text mt-2 text-center'>
-                    <a href='#contact'>CONTACT</a>
+                <div className='col-12 col-sm-4 header-text mt-2'>
                     {/* <a href='https://linkedin.com/' target='_blank' rel="noreferrer" ><h2 className='text-center'><i className="fa-brands fa-linkedin"></i></h2></a> */}
+                    <a href='https://www.instagram.com/janabonana/' target='_blank' rel="noreferrer" ><h2 className='text-center'><i class="fi fi-brands-instagram"></i></h2></a>
                 </div>
             </nav>
             <nav className='mobile-menu'>
@@ -51,6 +48,7 @@ function Navbar() {
                             <a href='#contact'>CONTACT</a>
                         </div>
                         {/* <a href='https://linkedin.com/' target='_blank' rel="noreferrer" ><h2><i className="fa-brands fa-linkedin py-1"></i></h2></a> */}
+                        <a href='https://www.instagram.com/janabonana/' target='_blank' rel="noreferrer" ><h2><i className="fi fi-brands-instagram py-1"></i></h2></a>
                     </div>
                 }
             </nav>

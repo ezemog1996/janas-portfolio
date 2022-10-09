@@ -16,7 +16,7 @@ function Profile() {
                     <h6 className='text-secondary'>CONTACT</h6>
                     <strong className='profile-email'>janagomez019@gmail.com</strong>
                     <br/>
-                    <strong>(760) 468-5194</strong>
+                    <strong>(949) 400-2637</strong>
                 </div>
                 <div>
                     <h6 className='text-secondary'>SKILLS</h6>
@@ -40,7 +40,7 @@ function Profile() {
             </>
     }
     return (
-        <>
+        <div>
             <div className='row mt-4 big-screen'>
                 <div className='col-4 vertical-space-between'>
                     {infoDivs.leftSide}
@@ -65,7 +65,7 @@ function Profile() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
