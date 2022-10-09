@@ -4,15 +4,15 @@ function Skills() {
     const skills = [
         {
           icon: 'fi fi-brands-illustrator',
-          skill: 'Adobe Illustrator'
+          skill: 'Illustrator'
         },
         {
           icon: 'fi fi-brands-indesign',
-          skill: 'Adobe InDesign'
+          skill: 'InDesign'
         },
         {
           icon: 'fi fi-brands-photoshop',
-          skill: 'Adobe Photoshop'
+          skill: 'Photoshop'
         }
     ]
     return (
@@ -24,7 +24,7 @@ function Skills() {
                     skills.map(skill => (
                     <div key={skill.skill}>
                         <h1 className='skill-icon text-center'><i className={skill.icon}></i></h1>
-                        <strong>{skill.skill}</strong>
+                        <div className='text-center'><strong>{skill.skill}</strong></div>
                     </div>
                     ))
                 }
