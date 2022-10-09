@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/janas-portfolio/static/css/main.1c12d4c2.css",
-    "main.js": "/janas-portfolio/static/js/main.bf40b6a9.js",
+    "main.js": "/janas-portfolio/static/js/main.fdeeb26f.js",
     "static/js/787.cf35f10c.chunk.js": "/janas-portfolio/static/js/787.cf35f10c.chunk.js",
     "static/media/jana.jpg": "/janas-portfolio/static/media/jana.1197f318ad6e9e15ede5.jpg",
     "static/media/Butterflies.png": "/janas-portfolio/static/media/Butterflies.509308dc206be28787c5.png",
@@ -12,11 +12,11 @@
     "static/media/Jana Gomez Designs-02[4594].png": "/janas-portfolio/static/media/Jana Gomez Designs-02[4594].4053e07f6aaa0bc39927.png",
     "index.html": "/janas-portfolio/index.html",
     "main.1c12d4c2.css.map": "/janas-portfolio/static/css/main.1c12d4c2.css.map",
-    "main.bf40b6a9.js.map": "/janas-portfolio/static/js/main.bf40b6a9.js.map",
+    "main.fdeeb26f.js.map": "/janas-portfolio/static/js/main.fdeeb26f.js.map",
     "787.cf35f10c.chunk.js.map": "/janas-portfolio/static/js/787.cf35f10c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c12d4c2.css",
-    "static/js/main.bf40b6a9.js"
+    "static/js/main.fdeeb26f.js"
   ]
 }
